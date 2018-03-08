@@ -1,7 +1,7 @@
 Third party cookie check for browsers
 =====================================
 
-A simple, static, passive (CDN-compatible) way of checking if third party cookies are enabled in a browser.
+A simple, static, passive (CDN-compatible) way of checking if third-party cookies are enabled in a browser.
 Consists of two scripts - one that will set a cookie, and another that will post a message depending on if the
 cookie is present or not. 
 
@@ -27,4 +27,4 @@ example below:
 ````
 
 It's also a good idea to set up a timeout that will automatically label third party cookies as unsupported if no recognised event comes back
-after a while, just in case network fails. 
+after a while, just in case network fails.
